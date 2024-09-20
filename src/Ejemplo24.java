@@ -21,4 +21,3 @@ public class Ejemplo24 {
             System.out.println("La nota mitjana es "+notatotal/assignatuires+"Han hagut "+Diez+" deus");
     }
 }
-
