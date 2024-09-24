@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Ejemplo23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> positivos= new ArrayList<>();
+        int positivos=0;
         int X;
         System.out.println("Dime quants numeros vols");
         X = sc.nextInt();
@@ -13,7 +13,7 @@ public class Ejemplo23 {
             System.out.println("Dime un numero");
             Y = sc.nextInt();
             if(Y>0){
-                positivos.add(Y);
+                positivos++;
             }
         }
         System.out.println(positivos);
