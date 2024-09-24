@@ -11,7 +11,7 @@ public class Ejemplo34 {
         num=sc.nextInt();
         System.out.print("Posa un altre: ");
         num2=sc.nextInt();
-        for(int i=0;i>=num2;i++){
+        for(int i=0;i<num2;i++){
            suma+=num;
        }
         System.out.println(num+" * "+num2+" = "+suma);
