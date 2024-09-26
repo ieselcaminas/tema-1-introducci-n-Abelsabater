@@ -5,11 +5,9 @@ import java.util.Scanner;
 public class EJ33 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int num;
         int suma=0;
-        int resto=0;
-        int operacion=0;
+        int resto;
         System.out.println("Posa un numero");
         num = sc.nextInt();
         do{
