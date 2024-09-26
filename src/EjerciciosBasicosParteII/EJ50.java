@@ -9,7 +9,7 @@ public class EJ50 {
             if(i%3==0){
                 div3=div3+", "+i;
             }
-            if(i%5==0){
+            if (i%5==0) {
                 div5=div5+", "+i;
             }
             if(i%3==0 && i%5==0){

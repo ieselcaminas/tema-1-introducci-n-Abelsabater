@@ -15,7 +15,7 @@ public class EJ52 {
         System.out.print("Posa un altre: ");
         num3 = sc.nextInt();
         if(num+num2==num3){
-            System.out.println("Veritat");
+            System.out.println("La resposta esta correcta");
         }
     }
 }
