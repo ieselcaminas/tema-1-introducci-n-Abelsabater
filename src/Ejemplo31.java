@@ -7,8 +7,8 @@ public class Ejemplo31 {
         ArrayList<Integer> divisores = new ArrayList<>();
         System.out.println("Dime un numero: ");
         X = sc.nextInt();
-        for (int i = 2; i < X; i++) {
-            if (X % i == 0 && X!=i) {
+        for (int i = 1; i <= X; i++) {
+            if (X % i == 0) {
                 divisores.add(i);
             }
         }
