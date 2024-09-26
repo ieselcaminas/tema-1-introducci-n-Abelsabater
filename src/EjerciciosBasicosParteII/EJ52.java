@@ -16,6 +16,8 @@ public class EJ52 {
         num3 = sc.nextInt();
         if(num+num2==num3){
             System.out.println("La resposta esta correcta");
+        }else{
+            System.out.println("La resposta esta incorrecta");
         }
     }
 }
