@@ -64,7 +64,7 @@ public class REF1 {
                         break;
                 }
                 diastotal=diastotal+(diasmes-dia);
-                System.out.println("Falten "+diastotal+" dias");
+                System.out.println("Falten "+diastotal+" dia/es");
             }
         }
     }
