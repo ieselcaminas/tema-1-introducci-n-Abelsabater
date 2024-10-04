@@ -20,6 +20,5 @@ public class EJ165 {
         System.out.println(llisnum);
         Collections.sort(llisnum);
         System.out.println(llisnum);
-
     }
 }
