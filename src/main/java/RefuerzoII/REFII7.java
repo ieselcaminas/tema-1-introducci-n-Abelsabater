@@ -14,23 +14,23 @@ public class REFII7 {
         System.out.println("Hasta quin numero vols arribar?");
         nªcanalhasta= sc.nextInt();
         for(int i= nºcanal;i!=nªcanalhasta; i++){
-            if(i==100){
-                i=i-100;
+            if(i==99){
+                i=i-99;
             }
             cuenta1 = cuenta1 +1;
         }
         for(int i=nºcanal;i!=nªcanalhasta;i--){
-            if(i==0){
-                i=i+100;
+            if(i==1){
+                i=i+99;
             }
             cuenta2 = cuenta2+1;
         }
         if(cuenta1<cuenta2){
-            System.out.println("Te falten "+(cuenta1-1)+" canals cap avant");
+            System.out.println("Te falten "+(cuenta1)+" canals cap avant");
         } else if (cuenta2<cuenta1) {
-            System.out.println("Te falten "+(cuenta2-1)+" canals cap atras");
+            System.out.println("Te falten "+(cuenta2)+" canals cap atras");
         }else{
-            System.out.println("Te falten "+(cuenta1-1)+" canals cap avant o cap atras");
+            System.out.println("Te falten "+(cuenta1)+" canals cap avant o cap atras");
         }
     }
 }
