@@ -26,11 +26,11 @@ public class REFII7 {
             cuenta2 = cuenta2+1;
         }
         if(cuenta1<cuenta2){
-            System.out.println("Te falten "+(cuenta1)+" canals cap avant");
+            System.out.println("Te falten "+cuenta1+" canals cap avant");
         } else if (cuenta2<cuenta1) {
-            System.out.println("Te falten "+(cuenta2)+" canals cap atras");
+            System.out.println("Te falten "+cuenta2+" canals cap atras");
         }else{
-            System.out.println("Te falten "+(cuenta1)+" canals cap avant o cap atras");
+            System.out.println("Te falten "+cuenta1+" canals cap avant o cap atras");
         }
     }
 }
