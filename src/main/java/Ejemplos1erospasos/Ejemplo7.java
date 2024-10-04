@@ -12,6 +12,6 @@ public class Ejemplo7 {
         System.out.println("Introduce el precio rebajado");
         preciorebajado=scanner.nextDouble();
         scanner.close();
-        System.out.println("El descuento es "+ (precio-preciorebajado)/precio*100);
+        System.out.println("El descuento es "+ (precio-preciorebajado)/precio*100+"%");
     }
 }
