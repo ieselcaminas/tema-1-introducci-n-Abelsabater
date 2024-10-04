@@ -1,4 +1,4 @@
-package RefuerzoII;
+package RefuerzoI;
 
 import java.util.Scanner;
 
