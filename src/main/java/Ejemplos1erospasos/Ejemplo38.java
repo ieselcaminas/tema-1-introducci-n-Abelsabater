@@ -13,12 +13,17 @@ public class Ejemplo38 {
         do{
             System.out.println("Dime un numero");
             num2= sc.nextInt();
-            if(num2>num){
+            if(num2==-1){
+                System.out.println("T'has rendit el numeron era "+num);
+                break;
+            }else if(num2>num){
                 System.out.println("Mes menut");
             }else if (num2<num){
                 System.out.println("Mes gran");
             }
         }while(num2!=num);
-        System.out.println("Has guanyat el numero era "+num);
+        if(num==num2){
+            System.out.println("Has guanyat el numero era "+num);
+        }
     }
 }
