@@ -8,12 +8,14 @@ public class Ejemplo37 {
         int decimal=0;
         int suma;
         int bit;
+        int pot;
         String bi;
         System.out.println("Posa un numero binari");
         bi=sc.nextLine();
-        for (int i = 0; i <=bi.length() ; i--) {
+        for (int i = 0; i <=bi.length() ; i++) {
             bit=bi.charAt(i);
-            suma=bit*2;
+            pot= (int) Math.pow(2,(bi.length()-i));
+            suma=bit*pot;
             decimal+=suma;
         }
         System.out.println(decimal);

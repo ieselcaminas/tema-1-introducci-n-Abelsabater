@@ -9,7 +9,6 @@ public class Ejemplo38 {
         Random ra=new Random();
         int num= ra.nextInt(100);
         int num2;
-
         do{
             System.out.println("Dime un numero");
             num2= sc.nextInt();
@@ -23,7 +22,7 @@ public class Ejemplo38 {
             }
         }while(num2!=num);
         if(num==num2){
-            System.out.println("Has guanyat el numero era "+num);
+            System.out.println("Has guanyat el numero era el"+num);
         }
     }
 }
