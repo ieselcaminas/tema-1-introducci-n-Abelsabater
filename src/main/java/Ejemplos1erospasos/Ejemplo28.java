@@ -9,11 +9,11 @@ public class Ejemplo28 {
         int numero = sc.nextInt();
         for (int i =2; i <= numero+1; i++) {
             if (numero%i==0 && i!=numero) {
-                System.out.println("No es un numero prim");
+                System.out.println("No es prim");
                 break;
             }
             if(numero%i!=0 && i>=numero){
-                System.out.println("Es un numero prim");
+                System.out.println("Es prim");
                 break;
             }
         }
