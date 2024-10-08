@@ -9,12 +9,13 @@ public class Ejemplo36 {
         int bi;
         System.out.println("Posa un numero decimal");
         decimal=sc.nextInt();
-        String binari=""+"";
+        String binari="";
         do{
             bi=decimal%2;
-            binari+=bi;
+            binari=bi+binari;
             decimal=decimal/2;
-        }while(decimal>1);
+        }while(decimal>=2);
+        binari=1+binari;
         System.out.println(binari);
     }
 }
