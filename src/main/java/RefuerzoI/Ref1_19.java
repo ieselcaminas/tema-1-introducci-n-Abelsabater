@@ -9,7 +9,7 @@ public class Ref1_19 {
         int distancia;
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Dime la velocitat que anava en Km/h");
+        System.out.print("Dime la velocitat que ha d'anar en Km/h");
         vel = sc.nextInt();
         System.out.print("Dime la distancia recorreguda en m");
         distancia = sc.nextInt();
