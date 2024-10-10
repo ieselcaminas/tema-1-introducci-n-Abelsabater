@@ -22,7 +22,7 @@ public class Ejemplo38 {
             }
         }while(num2!=num);
         if(num==num2){
-            System.out.println("Has guanyat el numero era el"+num);
+            System.out.println("Has guanyat el numero era el "+num);
         }
     }
 }
