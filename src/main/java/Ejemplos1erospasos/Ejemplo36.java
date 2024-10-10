@@ -14,8 +14,7 @@ public class Ejemplo36 {
             bi=decimal%2;
             binari=bi+binari;
             decimal=decimal/2;
-        }while(decimal>=2);
-        binari=1+binari;
+        }while(decimal>=1);
         System.out.println(binari);
     }
 }
