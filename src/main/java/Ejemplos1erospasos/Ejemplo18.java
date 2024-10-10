@@ -22,16 +22,16 @@ public class Ejemplo18 {
         segons=scanner.nextInt();
         scanner.close();
         segons+=1;
-        if(segons== 60){
-            segons=0;
+        if(segons>= 60){
+            segons-=60;
             minuts+=1;
         }
-        if(minuts == 60){
-            minuts=0;
+        if(minuts >= 60){
+            minuts-=60;
             hores+=1;
         }
-        if(hores == 24){
-            hores=0;
+        if(hores >= 24){
+            hores=hores-24;
         }
         System.out.println(hores+":"+minuts+":"+segons);
     }
