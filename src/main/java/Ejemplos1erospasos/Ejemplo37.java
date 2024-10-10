@@ -1,6 +1,5 @@
 package Ejemplos1erospasos;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ejemplo37 {
