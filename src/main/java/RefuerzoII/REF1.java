@@ -9,7 +9,7 @@ public class REF1 {
     public static void main(String[] args) {
         int dia;
         int mes;
-        int diasmes=0;
+        int diasmes;
         int mesesnoche=12;
         int diastotal=0;
         Scanner sc = new Scanner(System.in);
